@@ -1,0 +1,17 @@
+{
+  "name": "@app/client",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.ts",
+  "typings": "src/index.ts",
+  "exports": {
+    "./config": "./src/config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "25.5.2"
+  }
+}
